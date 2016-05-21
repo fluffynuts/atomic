@@ -1,0 +1,32 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+  "atom-typescript": {}
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+    wrapSelectionsInBrackets: false
+  core:
+    audioBeep: false
+    autoHideMenuBar: true
+    disabledPackages: []
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "custom-title":
+    template: "<%= filePath.indexOf(projectPath) === 0 ? filePath.substr(projectPath.length+1) : filePath %><% if (projectPath) { %><%= filePath.indexOf(projectPath) === 0 ? ' - [' + gitHead + ']' : '' %><%= filePath.indexOf(projectPath) === 0 ? ' in { ' +  projectPath + ' }' : '' %><% } %>"
+  editor:
+    fontSize: 12
+    preferredLineLength: 140
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "5c5b96af-b29a-03a0-7fe3-0689680d4562"
+  linter:
+    errorPanelHeight: 84
+  minimap: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
